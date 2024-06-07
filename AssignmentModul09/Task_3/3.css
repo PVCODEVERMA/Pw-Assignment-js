@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.card-columns {
+    width: 100%;
+    overflow: hidden;
+}
+
+.column {
+    width: 45%;
+    float: left;
+    margin: 2.5%;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+}

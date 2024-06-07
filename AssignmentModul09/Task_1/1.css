@@ -1,0 +1,33 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #333333;
+    float: left;
+    height: 100vh;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content {
+    width: 75%;
+    float: right;
+    padding: 20px;
+}

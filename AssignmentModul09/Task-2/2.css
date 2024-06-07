@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.image {
+    width: 35%;
+    float: right;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}

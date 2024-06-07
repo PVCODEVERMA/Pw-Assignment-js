@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pokemon-card {
+    width: 100px;
+    height: 140px;
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.pokemon-card img {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.pokemon-card:hover img {
+    transform: scale(1.2);
+    z-index: 10;
+}
